@@ -1,0 +1,10 @@
+{% load static %}
+<head>
+    <link rel='stylesheet' type='text/css' href='{% static 'polls/style.css' %}' />
+    <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' />
+</head>
+<body>
+<div><strong><p class='text-center' style='font-size: 100px;color: black;'>Polls App</p></strong></div><hr>
+<div style="width:35%; margin:0 auto;">{% block content %}
+{% endblock %}</div>
+</body>
